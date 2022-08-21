@@ -1,4 +1,10 @@
 import componentConfig from "@/config/component.config";
+import Skeleton_IMG from "@/assets/svg/Skeleton.svg";
+import Button_IMG from "@/assets/svg/Button.svg";
+import Image_IMG from "@/assets/svg/image.svg";
+import Mentions_IMG from "@/assets/svg/Mentions.svg";
+import Video_IMG from "@/src/assets/image/Video.png";
+
 
 // 右侧组件列表
 interface componentType {
@@ -33,7 +39,7 @@ const registerConfig = new createEditorConfig();
 
 registerConfig.register({
     label: 'Text 文本',
-    svg: '../src/assets/svg/Skeleton.svg',
+    svg: Skeleton_IMG,
     key: 'BaseText',
     type: 'base',
     component: 'TextStyle',
@@ -42,7 +48,7 @@ registerConfig.register({
 
 registerConfig.register({
     label: 'Button 按钮',
-    svg: '../src/assets/svg/Button.svg',
+    svg: Button_IMG,
     key: 'BaseButton',
     type: 'base',
     component: 'ButtonStyle',
@@ -51,7 +57,7 @@ registerConfig.register({
 
 registerConfig.register({
     label: 'Image 图片',
-    svg: '../src/assets/svg/image.svg',
+    svg: Image_IMG,
     key: 'BaseImage',
     type: 'base',
     component: 'ImageStyle',
@@ -60,7 +66,7 @@ registerConfig.register({
 
 registerConfig.register({
     label: 'Link 链接',
-    svg: '../src/assets/svg/Mentions.svg',
+    svg: Mentions_IMG,
     key: 'BaseLink',
     type: 'base',
     component: 'LinkStyle',
@@ -69,7 +75,7 @@ registerConfig.register({
 
 registerConfig.register({
     label: 'Video 视频',
-    svg: '../src/assets/image/Video.png',
+    svg: Video_IMG,
     key: 'BaseVideo',
     type: 'base',
     component: 'VideoStyle',

@@ -4,7 +4,7 @@
     <div class="container-header">
       <div class="container-header-left">
         <div class="container-header-left-l">
-          <img src="@/assets/image/logo.png" class="icon-img" />
+          <img :src="Logo_IMG" class="icon-img" />
           <span>低代码开发平台</span>
         </div>
         <div class="container-header-left-r">
@@ -118,6 +118,7 @@ import ComponentsOptions from '@/views/layout/ComponentsOptions.vue';
 import {storeToRefs} from "pinia";
 import {userMainStore} from "@/store/index";
 import PageStyle from '@/components/style/PageStyle.vue'; // 引入
+import Logo_IMG from "@/assets/image/logo.png";
 
 const mainStore = userMainStore();
 const {tree, statePoint, stateStack} = storeToRefs(mainStore); // 解构并使数据动态化

@@ -9,7 +9,7 @@
       </el-collapse>
     </div>
     <div v-else>
-      <img src="@/assets/image/NoComponent.png" class="place-image"/>
+      <img :src="NoComponent_IMG" class="place-image"/>
       <div style="text-align: center; font-size: 14px; color: #555555">请拖动组件到页面当中</div>
     </div>
   </div>
@@ -18,6 +18,7 @@
 <script lang="ts" setup>
 import {userMainStore} from "@/store";
 import {storeToRefs} from "pinia";
+import NoComponent_IMG from "@/assets/image/NoComponent.png";
 
 const mainStore = userMainStore();
 const {tList} = storeToRefs(mainStore);
