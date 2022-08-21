@@ -1,0 +1,17 @@
+{
+    "mode": "PC",
+    "title": "",
+    "container": {
+        "width": "768",
+        "height": "100%"
+    },
+    "style": [
+        {
+            "type": "color-picker",
+            "label": "背景颜色",
+            "attr": "background-color",
+            "val": "#ffffff"
+        }
+    ],
+    "components": []
+}
