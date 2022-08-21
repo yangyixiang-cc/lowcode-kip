@@ -3,7 +3,7 @@ import Skeleton_IMG from "@/assets/svg/Skeleton.svg";
 import Button_IMG from "@/assets/svg/Button.svg";
 import Image_IMG from "@/assets/svg/image.svg";
 import Mentions_IMG from "@/assets/svg/Mentions.svg";
-import Video_IMG from "@/src/assets/image/Video.png";
+import Video_IMG from "@/assets/image/Video.png";
 
 
 // 右侧组件列表
