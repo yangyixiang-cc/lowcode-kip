@@ -1,9 +1,9 @@
-import { defineStore } from 'pinia';
+import {defineStore} from 'pinia';
 import config from "@/config/editor.config";
 import data from "@/config/data.json";
 import cArgs from "@/config/component.config";
 import utils from "@/utils/tools"
-import { ElMessage } from "element-plus/es";
+import {ElMessage} from "element-plus/es";
 
 export const userMainStore = defineStore('mainStore', {
     state: () => ({
@@ -77,6 +77,17 @@ export const userMainStore = defineStore('mainStore', {
                 type: 'success',
                 message: '导入JSON成功'
             })
+        },
+        deleteComponent(index: number): void {
+            /**
+             * 删除tList中对应组件的action
+             *
+             * @param {number} index 组件在tList中的位置
+             */
+            let tList = utils.deepCopy(this.tList)
+            tList.splice(index, 1)
+            this.tList = utils.deepCopy(tList) as [];
+            this.saveCurrentPage()
         }
     }
 });

@@ -44,6 +44,7 @@
     </el-form>
     <div style="text-align: center">
       <el-button type="primary" icon="Refresh" @click="updateConf(form, props.index)">更新</el-button>
+      <el-button type="danger" icon="Delete" @click="removeComponent(props.index)">移除</el-button>
     </div>
   </div>
 </template>
@@ -70,7 +71,7 @@ for (let i: number = 12; i <= 30; i++) {
   fontSizeArr.push(`${i}px`);
 }
 
-function updateConf(conf: Object, index: number) {
+function updateConf(conf: Object, index: number): void {
   /**
    * 触发更新tList中对应组件配置的action
    *
@@ -78,6 +79,15 @@ function updateConf(conf: Object, index: number) {
    * @param {number} index 组件在tList中的位置
    */
   mainStore.updateConfig(utils.deepCopy(conf), index);
+}
+
+function removeComponent(index: number): void {
+  /**
+   * 触发删除tList中对应组件的action
+   *
+   * @param {number} index 组件在tList中的位置
+   */
+  mainStore.deleteComponent(index);
 }
 </script>
 
