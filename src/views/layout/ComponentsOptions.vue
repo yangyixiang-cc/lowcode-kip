@@ -9,7 +9,7 @@
       </el-collapse>
     </div>
     <div v-else>
-      <img :src="NoComponent_IMG" class="place-image"/>
+      <img :src="NoComponent_IMG" class="place-image" alt="当前没有拖入组件" />
       <div style="text-align: center; font-size: 14px; color: #555555">请拖动组件到页面当中</div>
     </div>
   </div>

@@ -8,7 +8,7 @@
               <span>{{ element.label }}</span>
             </div>
             <div class="card-content">
-              <img :src="element.svg" class="card-image" />
+              <img :src="element.svg" class="card-image" :alt="element.label" />
             </div>
           </el-card>
         </template>

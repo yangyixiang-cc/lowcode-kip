@@ -4,7 +4,7 @@
     <div class="container-header">
       <div class="container-header-left">
         <div class="container-header-left-l">
-          <img :src="Logo_IMG" class="icon-img" />
+          <img :src="Logo_IMG" class="icon-img" alt="logo" />
           <span>低代码开发平台</span>
         </div>
         <div class="container-header-left-r">

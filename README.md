@@ -15,7 +15,7 @@
 <br/>
 
 # 项目名称
-lowcode-低代码开发平台
+LowCode_kip-低代码开发平台
 
 # 技术栈
 * Vue3 Pinia vue-router 

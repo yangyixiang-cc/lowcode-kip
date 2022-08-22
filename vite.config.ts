@@ -15,7 +15,15 @@ export default defineConfig({
   resolve: {
     alias: {
       '@': resolve(__dirname, './src'),
-      "components": resolve(__dirname,'./src/components')
+      "components": resolve(__dirname, './src/components')
+    },
+  },
+  build: {
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true,
+      },
     },
   },
   plugins: [vue(),
@@ -24,7 +32,7 @@ export default defineConfig({
   }),
   Components({
     resolvers: [ElementPlusResolver()],
-  }),],
+  })],
   css: {
     // css预处理器
     preprocessorOptions: {
@@ -35,7 +43,7 @@ export default defineConfig({
     modules: {},
     postcss: {
       plugins: [
-       
+
       ]
     }
   }
