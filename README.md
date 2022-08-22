@@ -60,4 +60,4 @@ yarn run dev
 [low-code](https://lowcode-kip.vercel.app/)
 
 # 反馈
-如果您有任何反馈，请通过发送电子邮件至[workyyx@163.com](workyyx@163.com)与我们联系
+如果您有任何反馈，请通过发送至[电子邮件](mailto:workyyx@163.com)与我们联系
