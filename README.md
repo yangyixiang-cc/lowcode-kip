@@ -41,7 +41,7 @@ LowCode_kip-低代码开发平台
 # 本地运行
 克隆项目
 ```shell
-git clone https://gitee.com/lowcode_KIP/lowcode_kip.git
+git clone https://github.com/yangyixiang-cc/lowcode-kip.git
 ```
 进入项目目录
 ```shell
