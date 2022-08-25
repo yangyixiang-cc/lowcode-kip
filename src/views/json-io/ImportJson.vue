@@ -32,7 +32,7 @@ const mode = ref('text');
 function importJsonToPage(json): void {
   try {
     const fomatJson: Object = JSON.parse(json)
-    const keyArr: Array<string> = ['mode', 'title', 'container', 'components']
+    const keyArr: Array<string> = ['mode', 'title', 'container','style', 'components']
     const jsonKeys: Array<string> = Object.keys(fomatJson)
     if (!utils.arrayEquals(keyArr, jsonKeys)) {
       ElMessage({
