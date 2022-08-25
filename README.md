@@ -59,5 +59,8 @@ yarn run dev
 # 在线演示
 [low-code](https://lowcode-kip.vercel.app/)
 
+# 项目相关文档
+[飞书-lowcode-kip](https://zgl53alsxs.feishu.cn/docx/doxcnF4tyTMYgFkjo9wjLAFkRVb)
+
 # 反馈
 如果您有任何反馈，请通过发送至[电子邮件](mailto:workyyx@163.com)与我们联系
