@@ -57,7 +57,7 @@ yarn run dev
 ```
 
 # 在线演示
-[low-code](https://lowcode-kip.vercel.app/)
+<strike>[low-code(停用)](https://lowcode-kip.vercel.app/)</strike>
 
 # 项目相关文档
 [飞书-lowcode-kip](https://zgl53alsxs.feishu.cn/docx/doxcnF4tyTMYgFkjo9wjLAFkRVb)
